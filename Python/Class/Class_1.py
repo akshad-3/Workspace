@@ -1,6 +1,6 @@
 class employe:
     lang="python"
-    salary=1200000
+    salary=6700000
     
     
     def getinfo(self):
