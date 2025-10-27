@@ -1,1 +1,1 @@
-C:\Users\uchih\Desktop\Workspace\Python\Data-vis
+%1.1f%%
