@@ -22,6 +22,14 @@ const products =[{
         conut:56
     },
     priceCents:799
+},{
+    image:'images/products/black-2-slot-toaster.jpg',
+    name:'2 Slot Toaster - Black',
+    rating:{
+        stars:5,
+        count:2197
+    },
+    priceCents:1899
 }];
 productsHTML='';
 products.forEach((product)=>{
@@ -70,7 +78,7 @@ products.forEach((product)=>{
                 Added
             </div>
 
-            <button class="add-to-cart-button button-primary">
+            <button class="add-to-cart-button button-primary js-add-to-cart">
                 Add to Cart
             </button>
             </div>`;
@@ -79,3 +87,9 @@ products.forEach((product)=>{
 console.log(productsHTML);
 document.querySelector('.js-products-grid').innerHTML=productsHTML;
 //hwlloansdnasd
+document.querySelectorAll('.js-add-to-cart').forEach((button) =>{
+   button.addEventListener('click',()=>{
+    console.log('Added Product');
+   });
+
+});
