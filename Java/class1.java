@@ -2,7 +2,7 @@ class Car{
     String name;
     int price;
     void drive(){
-        System.out.println("Driving the car....");
+        System.out.printf("Driving the car....\nname : %s",name);
     }
 }
 public class class1{
