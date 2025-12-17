@@ -7,6 +7,7 @@
     This is called a Obect Litaral!!
 */
 let user ={
-    name="rahul",
-    age=30;
-}
+    name:"rahul",
+    age:30
+};
+
