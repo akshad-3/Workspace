@@ -10,4 +10,6 @@ let user ={
     name:"rahul",
     age:30
 };
+user.id=34;
+alert(user.id)
 
