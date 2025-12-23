@@ -8,6 +8,6 @@
 */
 let user ={
     name:"rahul",
-    age:30
+   
 };
 
