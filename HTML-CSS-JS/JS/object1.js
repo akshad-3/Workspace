@@ -8,8 +8,10 @@
 
     This is called a Obect Litaral!!
 */
-let user ={
-    name:"rahul",
-   
-};
+const student={
+    name:"akshad",
+    roll:100,
+    age:23,
+    email:"akshad@gmail.com"
 
+}
