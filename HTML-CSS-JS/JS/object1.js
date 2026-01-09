@@ -15,3 +15,18 @@ const student={
     email:"akshad@gmail.com"
 
 }
+
+//this is a singoletone object declaration
+
+const userdata=new Object();
+console.log(userdata)
+
+const example1={
+    userdetail:{
+        username:{
+            username:"akshad",
+            userage:23
+        }
+    }
+}
+console.log(example1.userdetail.username.userage);
