@@ -30,3 +30,27 @@ const example1={
     }
 }
 console.log(example1.userdetail.username.userage);
+
+//here is how to copy a object into another object 
+let user = {
+    name : "akshad",
+    id:"23"
+}
+let exm ={}
+for(let key in user ){
+    exm[key] = user[key];
+}
+exm.name="akash";
+alert(exm.name);
+
+//copy the object using object.assign
+let user1 = {
+    name : "akshad",
+    id :23
+};
+let assingment1 ={class:"forth"};
+let assingment2 ={sem:"first"};
+
+Object.assign(user1,assingment1,assingment2);
+
+console.log(user1.sem);
