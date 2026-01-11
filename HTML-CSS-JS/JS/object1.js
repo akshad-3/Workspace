@@ -54,3 +54,15 @@ let assingment2 ={sem:"first"};
 Object.assign(user1,assingment1,assingment2);
 
 console.log(user1.sem);
+
+//what is object is structured then we can use stucturedclone
+let user2 = {
+    name : "akshad",
+    usersBMI : {
+        height:5.7,
+        weight:70
+    }
+};
+let clone = structuredClone (user2);
+console.log(clone.usersBMI.height);
+    }
