@@ -18,7 +18,7 @@ const student={
 
 //this is a singoletone object declaration
 
-const userdata=new Object();
+const userdata = new Object();
 console.log(userdata)
 
 const example1={
@@ -55,6 +55,13 @@ Object.assign(user1,assingment1,assingment2);
 
 console.log(user1.sem);
 
+//if we want to copy a object in an empty object we use this method
+let user3 ={
+    name:"akshad",
+    id:23
+};
+let copyuser = Object.assign({},user3);
+console.log(copyuser.name);
 //what is object is structured then we can use stucturedclone
 let user2 = {
     name : "akshad",
@@ -65,4 +72,3 @@ let user2 = {
 };
 let clone = structuredClone (user2);
 console.log(clone.usersBMI.height);
-    
