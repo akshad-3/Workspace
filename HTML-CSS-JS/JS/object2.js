@@ -1,7 +1,8 @@
-let user={
-    name:"Jhon",
-    age:23
-};
-let key = prompt("Enter the name :","name");
-
-alert(user[key]);
+let user = {
+    name : "akshadd",
+    id:"233"
+}
+user.sayhi = function() {
+    console.log("hello world");
+}
+user.sayhi();

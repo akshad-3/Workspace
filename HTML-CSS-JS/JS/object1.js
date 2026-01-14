@@ -41,7 +41,7 @@ for(let key in user ){
     exm[key] = user[key];
 }
 exm.name="akash";
-alert(exm.name);
+console.log(exm.name);
 
 //copy the object using object.assign
 let user1 = {
