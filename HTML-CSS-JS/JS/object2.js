@@ -15,5 +15,5 @@ let user = {
 };
 
 console.log(user.profile?.address?.city);  // Mumbai
-console.log(user.profile.contact.phone); // undefined
+console.log(user.profile.contactz?.phone); // undefined
 
