@@ -16,8 +16,8 @@ details1.printname.call(details2)
 
 //below we are going to make the fuction separete and use for any object this is proper way to do it 
 
-let printname1 = function (){
-        console.log(this.firstname + " " + this.lastname);
+let printname1 = function (state,city){
+        console.log(this.firstname + " " + this.lastname + " state : " + state + " city " + city);
     }
 let details3 = {
     firstname : "akshad",
@@ -29,4 +29,10 @@ let details4 = {
     lastname :"gaikwad"
 };
 
-printname1.call(details3);
+printname1.call(details3,"maharashtra","latur");
+printname1.apply(details3,["maharashtra","latur"]);
+
+let copyoftheprintname = printname1.bind(details3,"maharashtra","latur");
+
+console.log(copyoftheprintname);
+copyoftheprintname();
