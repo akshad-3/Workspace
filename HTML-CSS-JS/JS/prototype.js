@@ -8,5 +8,10 @@ let rabbit ={
     jumps : true,
     __proto__:animal
 };
-
-rabbit.walk();
+let color ={
+    color: "white",
+    __proto__:rabbit
+}
+color.walk();
+console.log(color.jumps)
+console.log(color.color)
