@@ -9,4 +9,3 @@ class class1 {
 }
 let user = new class1("akshad");
 user.sayhi();
-console.log(user.yourname);
