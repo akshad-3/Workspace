@@ -1,0 +1,63 @@
+html,body{
+  margin: 0;
+  font-family: Inter;
+}
+header{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #F55A5A;
+  height: 55px;
+  color: white;
+}
+header > img{
+  width: 24px;
+  margin-right: 7px;
+}
+header > h1{
+  font-size: medium;
+  font-weight: 500;
+}
+article.journal-entry{
+  display: flex;
+  margin: 40px 45px;
+}
+.main-image{
+  width: 125px;
+  height: 168px;
+  border-radius: 5px;
+  margin-right: 19px;
+}
+.ping-image{
+  width: 7px;
+  height: 9px;
+  margin-right: 7px
+}
+.info-container a{
+  color: #2B283A;
+  font-size: 0.7rem;
+}
+.info-container a:visited{
+  color: #918E9B;
+}
+.info-container span.country{
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 0.7rem;
+  margin-right: 12px;
+}
+.info-container h2.entry-title{
+  margin-top: 7px;
+  margin-bottom: 17px;
+}
+.info-container p.entry-date{
+  font-weight: bold;
+}
+.info-container p.entry-txt{
+  line-height: 1.5;
+  font-size: 0.8rem;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;  
+  overflow: hidden;
+}
