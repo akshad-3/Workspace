@@ -1,15 +1,17 @@
+import counting from "./practice/props-3/counting.jsx"
 import Main from "./component/main.jsx"
 import Navbar from "./component/navbar.jsx"
 import Jokes from "./practice/props-2/jokes.jsx"
 import jokesdata from "./jokesdata.js"
-import counter from "./practice/props-3/counting.jsx"
+
+
 export default function App(){
   return(
     <>
       <Navbar />
       <Main />
       <AppForJokes />
-      <counter />
+      <counting />
     </>
   )
 }
@@ -65,4 +67,5 @@ function AppForJokes(){
 //       />
 //     </>
 //   )
+
 // }
