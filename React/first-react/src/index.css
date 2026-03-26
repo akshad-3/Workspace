@@ -4,7 +4,7 @@
 body { 
   margin: 0;
   font-family: inter,sans-serif;
-  background-color: #282D35;
+  
 
 }
 header{
@@ -33,6 +33,7 @@ main{
   background-image: url(/Users/akshad/GitHub/Workspace/React/first-react/src/react.svg);
   background-repeat: no-repeat;
   background-position:right 60%;
+  background-color: #282D35;
 }
 main > h1{
   margin: 0px;
