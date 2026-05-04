@@ -6,7 +6,6 @@ print(a);
 print(b[0]);
 print(a.dtype);
 
-#array that crated the array of zeros
 c=np.zeros((3,4))
 print(c)
 
