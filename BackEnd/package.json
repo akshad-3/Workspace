@@ -1,0 +1,20 @@
+{
+  "name": "firstbackend",
+  "version": "1.0.0",
+  "description": "this is the first backend from my end.",
+  "keywords": [
+    "node",
+    "first"
+  ],
+  "license": "ISC",
+  "author": "Akshad",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1"
+  }
+}
