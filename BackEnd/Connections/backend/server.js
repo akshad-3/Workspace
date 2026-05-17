@@ -5,7 +5,7 @@ app.get('/',(req ,res)=>{
     res.send("the server is running...")
 })
 
-app.get('/jokes',(req, res)=>{
+app.get('/api/jokes',(req, res)=>{
     const jokes = [
     {
         id: 1,
@@ -61,7 +61,7 @@ app.get('/jokes',(req, res)=>{
     res.send(jokes)
 })
 
-const port = process.env.Port || 4000;
+const port =4000;
 
 app.listen(port ,()=>{
     console.log(`http://localhost:${port}/jokes`)
