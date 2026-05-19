@@ -51,11 +51,6 @@ app.get('/api/jokes',(req, res)=>{
         id: 9,
         title: "AI Joke",
         content: "Why did the AI go to school? To improve its neural network."
-    },
-    {
-        id: 10,
-        title: "Debugging Joke",
-        content: "Debugging: Being the detective in a crime movie where you are also the murderer."
     }
     ];
     res.send(jokes)
