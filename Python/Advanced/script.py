@@ -7,6 +7,7 @@ def print_secret_message(doc_url):
     Fetches a published Google Doc containing a table of Unicode
     characters and their (x, y) grid positions, then prints the
     grid so the characters form a graphic of uppercase letters.
+    done
     """
     response = requests.get(doc_url)
     response.raise_for_status()
