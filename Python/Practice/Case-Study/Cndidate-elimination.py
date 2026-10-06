@@ -1,7 +1,7 @@
 import csv
 
 # Read dataset
-with open("/Users/akshad/GitHub/Workspace/Python/Practice/Case Study/Dataset/Find-SAlgo.csv", "r") as file:
+with open("/Users/akshad/GitHub/Workspace/Python/Practice/Case-Study/Dataset/Find-SAlgo.csv", "r") as file:
     data = list(csv.reader(file))
 
 header = data[0]
